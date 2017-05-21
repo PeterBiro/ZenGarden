@@ -1,13 +1,70 @@
-body { color: #084eae;
+body {
+    color: #084eae;
+    background-color: #cccccc;
 }
 
-h1 {font-size: 24pt;
+h1 {
+    font-size: 24pt;
     text-align: center
 }
 
 h2 {color: white;
     background-color: #084eae;
     margin-left: 20pt;
+    margin-right: 30%;
     padding-left: 20pt;
+    text-shadow: 2px 2px 4px #404040;
+}
 
+h3 {color:#084eae;
+    margin-left: 20pt;
+    padding-left: 20pt;
+    text-shadow: 2px 2px 4px #404040;
+}
+
+#zen-summary, #zen-preamble {
+    background-color: white;
+    margin-right: 30%;
+    margin-left: 5%
+}
+p { margin-right: 30%;
+    margin-left: 5%;
+
+}
+.summary p, .preamble p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #084eae;
+	}
+
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #084eae;
+	}
+
+a:hover, a:focus, a:active {
+    color: #084eae;
+	text-decoration: underline; 
+	text-shadow: 2px 2px 4px #404040;
+	}
+
+footer {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.sidebar {
+    position: fixed;
+    top: 110px;
+    right: 20px;
+}    
+
+.sidebar ul{
+    list-style-type: none;
 }
